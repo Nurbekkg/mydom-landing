@@ -452,6 +452,24 @@ footer {
     margin-right: 10px;
 }
 
+.burger {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.uk-offcanvas-bar {
+    background: #ffffff;
+}
+
+.uk-offcanvas-bar .uk-close {
+    color: #999;
+}
+
+.uk-offcanvas-bar .uk-nav-primary>li>a {
+    color: #999999;
+}
+
 
 @media only screen and (max-width: 1600px) {
     .introduction-section {
@@ -482,6 +500,129 @@ footer {
 
     .phones-image {
         display: none;
+    }
+
+    .contacts-block {
+        padding-left: 0;
+    }
+
+    .smart-phones {
+        width: 45%;
+    }
+
+    .platform-images {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .introduction-section {
+        background: none;
+        padding-bottom: 40px;
+    }
+
+    .contacts-block {
+        display: flex;
+        justify-content: flex-end;
+        -ms-background-position-y: 200px;
+        background-position-y: 200px;
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+
+    .services-list {
+        padding-bottom: 0;
+    }
+
+    .mb {
+        margin-bottom: 0;
+    }
+
+    .breez {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .platforms-container {
+        padding: 50px 0 50px 30px;
+    }
+
+    .platform-images {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .smart-phones {
+        width: 250px;
+        left: 0;
+    }
+
+    .platform-images img:first-child {
+        max-width: 650px;
+    }
+
+
+}
+
+@media only screen and (max-width: 640px) {
+    .apps-container {
+        padding: 35px 15px 40px;
+    }
+
+    .about-section .title h2,
+    .platforms-section h2 {
+        margin-bottom: 20px;
+    }
+
+    .apps-section .uk-button-group {
+        padding-left: 15px;
+    }
+
+    .title-block .link-btn,
+    .apps-section .link-btn {
+        font-size: 10px;
+        padding: 0 15px;
+    }
+
+    .about-section p {
+        margin: 0 0 20px;
+    }
+
+    .contacts-block {
+        padding-top: 0;
+        -ms-background-position-y: 300px;
+        background-position-y: 300px;
+    }
+
+    .mydom {
+        text-align: left;
+    }
+
+    .breez {
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .phone-numbers {
+        -ms-background-position-x: 0;
+        background-position-x: 0;
+        width: 320px;
+    }
+
+    .phone-numbers p {
+        font-size: 18px;
+        text-align: center;
     }
 }
 
