@@ -48,7 +48,7 @@ header {
 }
 
 .introduction-section {
-    background: url("../images/block-image.svg") right 0 no-repeat;
+    background: url("../images/block-image.png") right 0 no-repeat;
     -webkit-background-size: 34%;
     background-size: 34%;
     padding-bottom: 270px;
@@ -476,6 +476,10 @@ footer {
         -ms-background-position-y: 80px;
         background-position-y: 80px;
         padding-bottom: 140px;
+    }
+
+    .title-block {
+        padding-left: 150px;
     }
 }
 
